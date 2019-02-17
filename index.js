@@ -61,5 +61,4 @@ function initForm() {
 	    return new Handlebars.SafeString('<li name="ingredientsList">' + ingredient + '</li>')
 	  })
 	  Handlebars.registerPartial('recipeDetailsPartial', document.getElementById("recipe-details-partial").innerHTML)
-	  Handlebars.registerPartial('recipeFormPartial', document.getElementById("recipe-form-partial").innerHTML)
 	}
