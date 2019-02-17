@@ -62,3 +62,7 @@ function initForm() {
 	  })
 	  Handlebars.registerPartial('recipeDetailsPartial', document.getElementById("recipe-details-partial").innerHTML)
 	}
+
+  function handleSubmit(){
+    
+  }
